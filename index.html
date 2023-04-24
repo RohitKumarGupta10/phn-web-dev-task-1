@@ -1,0 +1,67 @@
+<!-- In this project i have created a table booking form for a restaurant say XYZ  
+Given form includes all the parameters mentioned in the task form so sit back and understand the code-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHN WEB-DEVELEOPMENT INTERNSHIP TASK-1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1><b><i><u>PHN Web Development Internship Task-1</u></i></b></h1>
+    <p><b><i><u> Welcome To</u></i><u></u></b></p>
+    <p><b><u><i>Gupta Ji Restaurant</i></u></b></p>
+    
+<!-- Image section-->   
+    <div class="row">
+        <div class="column">
+          <img src="rest1.jpg"  style="width:100%" height="290px">
+        </div>
+        <div class="column">
+          <img src="rest2.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+          <img src="rest3.jpg"  style="width:100%">
+        </div>
+      </div>
+
+<!--Image section ends here-->
+
+<h2><u><b>Table Booking Form</b></u></h2>
+
+<!-- My form starts here-->      
+    <form>
+        <label for="date">DATE</label>
+        <input type="date" id="date" name="date" required>
+      
+        <label for="time">TIME</label>
+        <input type="time" id="time" name="time" required>
+      
+        <label for="guests">NO. OF GUESTS</label>
+        <input type="number" id="guests" name="guests">
+      
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="phone">PHONE NUMBER</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+      
+        <input type="submit" value="Submit">
+      </form> 
+
+
+<!-- Foote sction for copyright purpose-->
+      <footer>
+        <p>Created by Rohit Kumar Gupta Front-End Developer. © 2023</p>
+    </footer>
+    
+    
+</body>
+</html>
